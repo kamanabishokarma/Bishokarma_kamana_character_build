@@ -84,16 +84,16 @@ article p, #instructions p {
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url('../images/marvelSprites.jpg');
+    background-image: url('../images/doreamon\ all\ characters.png');
 }
 
-#carol {background-position: -150px 0;}
-#clint {background-position: -300px 0;}
-#hulk {background-position: -450px 0;}
-#thor {background-position: -600px 0;}
-#widow {background-position: -750px 0;}
+#Doreamon {background-position: -150px 0;}
+#Nobita {background-position: -300px 0;}
+#Shizuka {background-position: -450px 0;}
+#Gian {background-position: -600px 0;}
+#suneo {background-position: -750px 0;}
 
-#cap:hover, #carol:hover, #clint:hover, #hulk:hover, #thor:hover, #widow:hover {
+#Doreamon:hover, #Nobita:hover, #Shizuka:hover, #Gian:hover, #Suneo:hover {
     background-position-y: -150px;
 }
 
@@ -116,7 +116,7 @@ footer {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-image: url('../images/Doreamon.jpg');
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
@@ -124,7 +124,7 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url('../images/Thor_LB_Bg.png');
+    background-image: url('../images/Nobita.jpg');
 }
 
 .lightbox_close {
