@@ -15,8 +15,14 @@ body {
     margin: 0;
 }
 
+.hidden{
+    display: none;
+}
+
+/* /*main header rules */
+
 header {
-    background-color: red;
+    background-color: rgb(207, 201, 201);
     padding: 10px 0;
 }
 
@@ -30,7 +36,7 @@ header {
 
 #character_nav {
     background-color: #675050;
-    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-image: url('../images/doreamon\ all\ characters.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -49,7 +55,7 @@ header {
     margin: 10px 8px;
     text-align: left;
     cursor: pointer;
-    box-shadow: 0 155px 0 rgb(255, 0, 0) inset;
+    box-shadow: 0 155px 0 rgb(220, 98, 9) inset;
     transition: box-shadow .2s ease;
 }
 
@@ -79,12 +85,19 @@ article h3, #instructions h3 {
 article p, #instructions p {
     font-size: 18px;
     text-align: center;
+    width: 80%;
+    line-height: 22px;
+    margin: 0px auto;
 }
+
+/---Sprite---/
 
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url('../images/doreamon\ all\ characters.png');
+    /---Move image from img: ---/
+    background-image: url('..imga;');
+
 }
 
 #Doreamon {background-position: -150px 0;}
@@ -96,6 +109,8 @@ article p, #instructions p {
 #Doreamon:hover, #Nobita:hover, #Shizuka:hover, #Gian:hover, #Suneo:hover {
     background-position-y: -150px;
 }
+
+ /---Footer rules---/
 
 footer {
     text-align: center;
@@ -127,10 +142,21 @@ footer {
     background-image: url('../images/Nobita.jpg');
 }
 
+#lightbox3 {
+    background-image: url('../images/shizuka-doraemon.jpg');
+}
+
+#lightbox4 {
+    background-image: url('../images/GianDebut_2.jpg');
+}
+
+#lightbox5 {
+    background-image: url('../images/Suneo.jpg');
+}
 .lightbox_close {
-    position: absolute;
+    position: relative;
     top: 20px;
-    right: 5%;
+    left: 95%;
 
     color: white;
     font-size: 36px;
@@ -157,10 +183,12 @@ footer {
 }
 
 .lb_text {
-    line-height: 26px;
+    margin-left: 0;
+    padding-top: 32px;
+    line-height: 1.6!important;
 }
 
-/* .lightbox#lightbox2 or .lightbox#lightbox */
+
 .lightbox:target {
     display: block;
 }
